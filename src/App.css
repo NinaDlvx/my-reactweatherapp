@@ -1,1 +1,18 @@
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(219, 246, 251) 14.9%,
+    rgba(147, 225, 241) 80%
+  );
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 400px;
+  max-width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+footer {
+  font-size: 12px;
+}

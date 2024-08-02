@@ -11,11 +11,15 @@ export default function Weather() {
             <input
               type="search"
               placeholder="Enter a city..."
-              className="form-control"
+              className="form-control w-100"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
@@ -24,31 +28,37 @@ export default function Weather() {
           <div className="col-6">
             <h3>Current Weather</h3>
           </div>
-          <div className="col-6">°C | °F</div>
+          <div className="col-6">
+            <h3 className="metricswitch">°C | °F</h3>
+          </div>
         </div>
         <div className="row">
           <div className="col-3">
-            <h2>Brussels</h2>
+            <h2>
+              <strong>Brussels</strong>
+            </h2>
             <img src="#" alt="icon of current weather" />
           </div>
           <div className="col-3">
             <div>
-              <p>24°</p>
+              <p className="highlighted-temp">24°</p>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-sm-6">
             <h2>Feels like 24°</h2>
             <div className="row">
-              <div className="col-2">
+              <div className="col-3">
                 <ul>
+                  <li>Condition</li>
                   <li>Minima</li>
                   <li>Maxima</li>
                   <li>Humidity</li>
                   <li>Wind</li>
                 </ul>
               </div>
-              <div className="col-10">
+              <div className="col-9">
                 <ul>
+                  <li>Cloudy</li>
                   <li>10°</li>
                   <li>26°</li>
                   <li>73%</li>

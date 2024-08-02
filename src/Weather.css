@@ -1,1 +1,70 @@
+:root {
+  --primary-color: rgb(47, 93, 138);
+  --secondary-color: rgb(69, 121, 188);
+}
 
+.Weather h1 {
+  margin: 30px auto 30px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.Weather .form-control,
+.Weather .btn {
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.Weather .btn {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.Weather .btn:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.Weather .current-weather-box {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+.Weather h2 {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.Weather h3 {
+  line-height: 1.5;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+.Weather .metricswitch {
+  text-align: right;
+}
+
+.Weather .highlighted-temp {
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 2;
+  color: var(--primary-color);
+}
+
+.Weather ul {
+  list-style: none;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.Weather .col-3 ul {
+  color: black;
+  opacity: 0.5;
+}
