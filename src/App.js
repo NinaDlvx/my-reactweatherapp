@@ -1,10 +1,12 @@
+import React from "react";
+import Weather from "./Weather";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
+        <Weather />
         <footer>
           This project was coded by Nina Delvaux using React. It is open-sourced
           on Github and hosted on Netlify
@@ -13,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
