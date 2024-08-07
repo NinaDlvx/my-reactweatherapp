@@ -51,17 +51,23 @@
 
 .highlighted-temp-box {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .highlighted-icon {
-  margin-top: 20px;
-  margin-right: 15px;
+  margin: 20px 15px 0px 20px;
 }
 
 .Weather .highlighted-temp {
   font-size: 68px;
   color: var(--primary-color);
+}
+
+.Weather .metricswitch {
+  opacity: 0.7;
+  font-size: 16px;
+  position: relative;
+  top: -40px;
 }
 
 .Weather ul {
