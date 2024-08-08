@@ -14,7 +14,11 @@ export default function WeatherInfo(props) {
           </h2>
           <div className="highlighted-temp-box d-flex">
             <div className="highlighted-icon">
-              <WeatherIcon code={props.data.icon} alt={props.data.icon} />
+              <WeatherIcon
+                code={props.data.icon}
+                alt={props.data.icon}
+                size={70}
+              />
             </div>
             <div>
               <MetricSwitch celsius={props.data.temperature} />

@@ -26,7 +26,8 @@
   border: 1px solid var(--secondary-color);
 }
 
-.Weather .current-weather-box {
+.Weather .current-weather-box,
+.WeatherForecast {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid transparent;
   border-radius: 20px;
@@ -81,4 +82,33 @@
 .Weather .col-3 ul {
   color: black;
   opacity: 0.5;
+}
+
+.Weather .WeatherForecast .col {
+  text-align: center;
+}
+
+.Weather .WeatherForecast-temperatures {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+}
+
+.Weather .WeatherForecastDay {
+  color: var(--secondary-color);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Weather .WeatherForecast-max-temperature {
+  margin-right: 4px;
+  font-weight: 600;
+}
+.Weather .WeatherForecast-min-temperature {
+  opacity: 0.6;
+  margin-left: 4px;
+}
+
+a {
+  text-decoration: none;
 }
